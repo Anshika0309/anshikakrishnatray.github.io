@@ -7,138 +7,81 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1 class="name">Anshika Krishnatray</h1>
-      <p class="tagline">Computer Science Engineering • AI / ML • Research & Product</p>
-      <div class="contact">
-        <a href="mailto:F20230610@PILANI.BITS-PILANI.AC.IN">F20230610@PILANI.BITS-PILANI.AC.IN</a>
-        <span>•</span>
-        <a href="tel:+918527554761">+91 85275 54761</a>
-        <span>•</span>
-        <a href="https://github.com/Anshika0309" target="_blank" rel="noopener">github</a>
-        <span>•</span>
-        <a href="https://www.linkedin.com/in/anshikakrishnatray/" target="_blank" rel="noopener">linkedin</a>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Anshika Krishnatray</div>
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contact">Contact</a>
       </div>
-      <div class="actions">
-        <a class="btn" href="/mnt/data/anshika_resume.pdf" download>Download Resume</a>
-        <a class="btn ghost" href="#projects">View Projects</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi — I'm Anshika</h1>
+        <p class="lead">B.E. Computer Science • AI/ML • Researcher & Product Builder</p>
+        <p>I build agentic tools, CV/NLP systems, and practical ML pipelines that help teams ship faster.</p>
+        <div class="cta">
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="anshika_resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Make sure profile.jpg is in the same folder -->
+        <img src="profile.jpg" alt="Anshika Krishnatray" />
       </div>
     </div>
   </header>
 
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About</h2>
-      <p>I'm a B.E. Computer Science student (Class of 2027) with hands-on experience in machine learning, computer vision, and NLP. I focus on practical ML systems — from prototype agentic tools to deep-learning solutions for design automation.</p>
-      <ul class="meta">
-        <li><strong>CGPA:</strong> 4.17</li>
-        <li><strong>Location:</strong> Pilani, India</li>
-        <li><strong>Interests:</strong> ML, Agents, Computer Vision, NLP, Research</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Manufacturability classification of kitchenware designs</h3>
-        <p>Built a curve-based image pipeline and deep learning classifier to distinguish manufacturable designs, and a shape generator to propose feasible outlines for product design automation.</p>
-        <p class="small">Technologies: Python, PyTorch, OpenCV</p>
-      </div>
-
-      <div class="project">
-        <h3>PDF parsing & proofreading automation</h3>
-        <p>Engineered a PDF parsing system to compare and highlight differences for automated proofreading, improving reviewer efficiency.</p>
-        <p class="small">Technologies: Python, PDF libraries, NLP</p>
-      </div>
-
-      <div class="project">
-        <h3>Video summarizer & transcribing agent</h3>
-        <p>Created an AI agent to transcribe and summarize long videos, reducing content review time by ~70% for educators and researchers.</p>
-        <p class="small">May 2025 • Agentic AI</p>
-      </div>
-
-      <div class="project">
-        <h3>Gen AI job assistant (Chrome extension)</h3>
-        <p>Developed a Gemini API based Chrome extension that analyzes job postings and resumes to speed up tailored applications.</p>
-        <p class="small">May 2025 • Gen AI</p>
-      </div>
-
-      <div class="project">
-        <h3>Image augmentation pipeline</h3>
-        <p>Implemented an augmentation workflow increasing dataset size by 5× to improve model robustness for real-world recognition tasks.</p>
-        <p class="small">Aug 2024 – Apr 2025</p>
-      </div>
-
-      <div class="project">
-        <h3>NLP Chatbot</h3>
-        <p>Built an NLP-powered chatbot that automated query handling, reducing response time by ~60% for resource-limited users.</p>
-        <p class="small">Aug 2024 – Dec 2024</p>
-      </div>
-    </section>
-
+  <main class="container main">
     <section id="experience" class="card">
-      <h2>Experience & Internships</h2>
-      <ul class="experience-list">
+      <h2>Experience</h2>
+      <ul class="exp-list">
         <li>
           <h3>Tech Intern — Lily Kitchenware</h3>
-          <p><em>May 2025 – Jul 2025</em><br/>Worked on manufacturability classification and shape generation pipeline.</p>
+          <p class="muted">May 2025 – Jul 2025</p>
+          <p>Worked on manufacturability classification and shape generation pipelines for kitchenware design automation.</p>
         </li>
         <li>
           <h3>Tech Intern — Aligned Studios</h3>
-          <p><em>Jun 2024 – Jul 2024</em><br/>Contributed to computer vision and data workflows.</p>
+          <p class="muted">Jun 2024 – Jul 2024</p>
+          <p>Contributed to computer vision data workflows and model prototyping.</p>
+        </li>
+        <li>
+          <h3>Agentic AI — Video Summarizer & Transcribing Agent</h3>
+          <p class="muted">May 2025 – Jun 2025</p>
+          <p>Built an AI agent to transcribe and summarize long videos, saving ~70% content review time.</p>
         </li>
       </ul>
     </section>
 
-    <section id="education" class="card">
-      <h2>Education</h2>
+    <section id="accomplishments" class="card">
+      <h2>Accomplishments</h2>
       <ul>
-        <li><strong>B.E. Computer Science Engineering</strong>, BITS Pilani — Class of 2027</li>
-        <li><strong>Class XII</strong>, Delhi Public School, Greater Noida — CBSE, 84.8% (2023)</li>
-        <li><strong>Class X</strong>, Greater Valley School, Greater Noida — CBSE, 87% (2021)</li>
-      </ul>
-    </section>
-
-    <section id="conferences" class="card">
-      <h2>Conferences & Awards</h2>
-      <ul>
-        <li>Accepted for poster presentation in WiML and LLM Evaluation Workshops</li>
-        <li>Paper: <em>Talking with Oompa Loompas: A novel framework for evaluating linguistic acquisition of LLM agents</em> — NeurIPS 2025</li>
-      </ul>
-    </section>
-
-    <section id="roles" class="card">
-      <h2>Positions of Responsibility</h2>
-      <ul>
-        <li>BITS x Postman Innovation Lab — Events and Lab Coordinator (Aug 2025 – Jul 2026)</li>
-        <li>Computer Science Association — Event Coordinator (Jul 2024 – May 2025)</li>
-      </ul>
-    </section>
-
-    <section id="certs" class="card">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Fundamentals Of Agents — Vanderbilt / Coursera</li>
-        <li>App/Game Developer — WhiteHat Jr</li>
-        <li>Full Stack Developer — WhiteHat Jr</li>
-        <li>Hugging Face Certifications</li>
+        <li>Accepted for poster presentation in WiML and LLM Evaluation Workshops.</li>
+        <li>Paper: <em>Talking with Oompa Loompas: A novel framework for evaluating linguistic acquisition of LLM agents</em> — NeurIPS 2025.</li>
+        <li>Built a Gemini API-based Chrome extension to analyze job postings and resumes for tailored applications.</li>
+        <li>Implemented an image augmentation workflow to expand datasets by 5×, improving model robustness.</li>
+        <li>Developed an NLP chatbot that reduced response time by ~60% for users in resource-limited settings.</li>
       </ul>
     </section>
 
     <section id="contact" class="card">
       <h2>Contact</h2>
-      <p>I'm open to internships, collaborations, and research opportunities. Reach out via email or LinkedIn.</p>
-      <p class="contact-grid">
-        <a class="link" href="https://github.com/Anshika0309" target="_blank">github.com/Anshika0309</a>
-        <a class="link" href="https://www.linkedin.com/in/anshikakrishnatray/" target="_blank">linkedin.com/in/anshikakrishnatray</a>
-      </p>
+      <p class="lead">I'm open to internships, collaborations, and research opportunities.</p>
+      <p>Email: <a href="mailto:F20230610@PILANI.BITS-PILANI.AC.IN">F20230610@PILANI.BITS-PILANI.AC.IN</a></p>
+      <p>Phone: <a href="tel:+918527554761">+91 85275 54761</a></p>
+      <p>GitHub: <a href="https://github.com/Anshika0309" target="_blank">github.com/Anshika0309</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/anshikakrishnatray/" target="_blank">linkedin.com/in/anshikakrishnatray</a></p>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>© 2025 Anshika Krishnatray • Built with ❤️ • <a href="/mnt/data/anshika_resume.pdf" download>Resume</a></p>
+      <p>© 2025 Anshika Krishnatray • Built with ♥</p>
     </div>
   </footer>
 
